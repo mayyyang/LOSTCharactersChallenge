@@ -90,8 +90,8 @@
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.charactersArray.count;
+//}
 }
-
 - (NSArray *)load
 {
     NSFetchRequest *request = [[NSFetchRequest alloc] initWithEntityName:@"Lost"];
@@ -101,7 +101,7 @@
     NSSortDescriptor *sortByName = [[NSSortDescriptor alloc] initWithKey:@"actor" ascending:YES];
     request.sortDescriptors = @[sortByName];
 
-    //puts stuff in characersArray
+    //puts stuff in charactersArray
     return [self.moc executeFetchRequest:request error:nil];
 
 }
