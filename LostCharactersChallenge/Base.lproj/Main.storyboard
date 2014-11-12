@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="xND-d3-q4Y" detailTextLabel="xcL-cj-YDm" rowHeight="185" style="IBUITableViewCellStyleSubtitle" id="9Zd-ZG-Hoh" customClass="CustomTableViewCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" textLabel="xND-d3-q4Y" detailTextLabel="xcL-cj-YDm" rowHeight="185" style="IBUITableViewCellStyleSubtitle" id="9Zd-ZG-Hoh" customClass="CustomTableViewCell">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Zd-ZG-Hoh" id="X94-bw-vng">
@@ -77,6 +77,7 @@
                                             <outlet property="hairLabel" destination="1zu-1U-Xhx" id="e2I-1M-JiQ"/>
                                             <outlet property="seatLabel" destination="Vlz-XA-rs4" id="L4i-zF-d2w"/>
                                             <outlet property="sexLabel" destination="aHr-U1-Vop" id="xDp-SO-V6b"/>
+                                            <segue destination="hdf-0j-tkb" kind="push" identifier="editSegue" id="zUk-LY-Fqt"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -109,7 +110,7 @@
             </objects>
             <point key="canvasLocation" x="694" y="365"/>
         </scene>
-        <!--Add Another Character-->
+        <!--Add/Edit Character-->
         <scene sceneID="W1f-ju-6ID">
             <objects>
                 <viewController id="hdf-0j-tkb" customClass="AddCharacterViewController" sceneMemberID="viewController">
@@ -202,7 +203,7 @@
                             <constraint firstItem="GOJ-yI-c75" firstAttribute="centerX" secondItem="GwQ-nF-kIb" secondAttribute="centerX" id="yxE-DE-JMe"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Add Another Character" id="ldH-vm-Veb"/>
+                    <navigationItem key="navigationItem" title="Add/Edit Character" id="ldH-vm-Veb"/>
                     <connections>
                         <outlet property="actorTextField" destination="Jly-HZ-ayc" id="khb-kW-0DX"/>
                         <outlet property="ageTextField" destination="vC0-LE-SN3" id="3g0-Ii-wXo"/>
@@ -241,4 +242,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="zUk-LY-Fqt"/>
+    </inferredMetricsTieBreakers>
 </document>

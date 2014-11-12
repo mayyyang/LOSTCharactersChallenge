@@ -78,6 +78,7 @@
 
     //TODO: Add Editing function so that labels show up for LOST characters.
     cell.ageLabel.text = [NSString stringWithFormat:@"%@",[lost valueForKey:@"age"]];
+//    cell.ageLabel.text = nil;
     cell.eyeLabel.text = [lost valueForKey:@"eye_color"];
     cell.sexLabel.text = [lost valueForKey:@"gender"];
     cell.hairLabel.text = [lost valueForKey:@"hair_color"];
@@ -109,6 +110,10 @@
 {
     AddCharacterViewController *vc = segue.destinationViewController;
     vc.moc = self.moc;
+
+    if ([segue.identifier isEqualToString:@"editSegue"]) {
+        vc.lostCharacter = self.charactersArray[[self.tableView indexPathForSelectedRow].row];
+    }
 
 }
 

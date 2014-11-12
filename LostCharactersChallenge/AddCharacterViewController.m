@@ -24,6 +24,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.passengerTextField.placeholder = [self.lostCharacter valueForKey:@"passenger"];
+    self.actorTextField.placeholder = [self.lostCharacter valueForKey:@"actor"];
+    self.genderTextField.placeholder = [self.lostCharacter valueForKey:@"gender"];
+    self.hairColorTextField.placeholder = [self.lostCharacter valueForKey:@"hair_color"];
+    self.eyeColorTextField.placeholder = [self.lostCharacter valueForKey:@"eye_color"];
+    self.seatNumberTextField.placeholder = [self.lostCharacter valueForKey:@"seat"];
+    //TODO: need to figure out how to do age text field
+
+
+//
+// [m setValue:[NSNumber numberWithInt:[self.ageTextField.text intValue]] forKey:@"age"];
 
 }
 
