@@ -10,11 +10,14 @@
 		FB1E05861A12BA0500401AE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1E05851A12BA0500401AE3 /* main.m */; };
 		FB1E05891A12BA0500401AE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1E05881A12BA0500401AE3 /* AppDelegate.m */; };
 		FB1E058C1A12BA0500401AE3 /* LostCharactersChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB1E058A1A12BA0500401AE3 /* LostCharactersChallenge.xcdatamodeld */; };
-		FB1E058F1A12BA0500401AE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1E058E1A12BA0500401AE3 /* ViewController.m */; };
+		FB1E058F1A12BA0500401AE3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1E058E1A12BA0500401AE3 /* RootViewController.m */; };
 		FB1E05921A12BA0500401AE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1E05901A12BA0500401AE3 /* Main.storyboard */; };
 		FB1E05941A12BA0500401AE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1E05931A12BA0500401AE3 /* Images.xcassets */; };
 		FB1E05971A12BA0500401AE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB1E05951A12BA0500401AE3 /* LaunchScreen.xib */; };
 		FB1E05A31A12BA0500401AE3 /* LostCharactersChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1E05A21A12BA0500401AE3 /* LostCharactersChallengeTests.m */; };
+		FB1E05AD1A12C3DE00401AE3 /* lost.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB1E05AC1A12C3DE00401AE3 /* lost.plist */; };
+		FB1E05B01A12D53600401AE3 /* AddCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1E05AF1A12D53600401AE3 /* AddCharacterViewController.m */; };
+		FB1E05B31A12F5BF00401AE3 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1E05B21A12F5BF00401AE3 /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +37,19 @@
 		FB1E05871A12BA0500401AE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB1E05881A12BA0500401AE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FB1E058B1A12BA0500401AE3 /* LostCharactersChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LostCharactersChallenge.xcdatamodel; sourceTree = "<group>"; };
-		FB1E058D1A12BA0500401AE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FB1E058E1A12BA0500401AE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB1E058D1A12BA0500401AE3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FB1E058E1A12BA0500401AE3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		FB1E05911A12BA0500401AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB1E05931A12BA0500401AE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FB1E05961A12BA0500401AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FB1E059C1A12BA0500401AE3 /* LostCharactersChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LostCharactersChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB1E05A11A12BA0500401AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB1E05A21A12BA0500401AE3 /* LostCharactersChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LostCharactersChallengeTests.m; sourceTree = "<group>"; };
+		FB1E05AC1A12C3DE00401AE3 /* lost.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lost.plist; sourceTree = "<group>"; };
+		FB1E05AE1A12D53600401AE3 /* AddCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCharacterViewController.h; sourceTree = "<group>"; };
+		FB1E05AF1A12D53600401AE3 /* AddCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCharacterViewController.m; sourceTree = "<group>"; };
+		FB1E05B11A12F5BF00401AE3 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		FB1E05B21A12F5BF00401AE3 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +93,12 @@
 			children = (
 				FB1E05871A12BA0500401AE3 /* AppDelegate.h */,
 				FB1E05881A12BA0500401AE3 /* AppDelegate.m */,
-				FB1E058D1A12BA0500401AE3 /* ViewController.h */,
-				FB1E058E1A12BA0500401AE3 /* ViewController.m */,
+				FB1E058D1A12BA0500401AE3 /* RootViewController.h */,
+				FB1E058E1A12BA0500401AE3 /* RootViewController.m */,
+				FB1E05AE1A12D53600401AE3 /* AddCharacterViewController.h */,
+				FB1E05AF1A12D53600401AE3 /* AddCharacterViewController.m */,
+				FB1E05B11A12F5BF00401AE3 /* CustomTableViewCell.h */,
+				FB1E05B21A12F5BF00401AE3 /* CustomTableViewCell.m */,
 				FB1E05901A12BA0500401AE3 /* Main.storyboard */,
 				FB1E05931A12BA0500401AE3 /* Images.xcassets */,
 				FB1E05951A12BA0500401AE3 /* LaunchScreen.xib */,
@@ -100,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				FB1E05841A12BA0500401AE3 /* Info.plist */,
+				FB1E05AC1A12C3DE00401AE3 /* lost.plist */,
 				FB1E05851A12BA0500401AE3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -204,6 +217,7 @@
 			files = (
 				FB1E05921A12BA0500401AE3 /* Main.storyboard in Resources */,
 				FB1E05971A12BA0500401AE3 /* LaunchScreen.xib in Resources */,
+				FB1E05AD1A12C3DE00401AE3 /* lost.plist in Resources */,
 				FB1E05941A12BA0500401AE3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,7 +238,9 @@
 			files = (
 				FB1E05891A12BA0500401AE3 /* AppDelegate.m in Sources */,
 				FB1E058C1A12BA0500401AE3 /* LostCharactersChallenge.xcdatamodeld in Sources */,
-				FB1E058F1A12BA0500401AE3 /* ViewController.m in Sources */,
+				FB1E05B31A12F5BF00401AE3 /* CustomTableViewCell.m in Sources */,
+				FB1E05B01A12D53600401AE3 /* AddCharacterViewController.m in Sources */,
+				FB1E058F1A12BA0500401AE3 /* RootViewController.m in Sources */,
 				FB1E05861A12BA0500401AE3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

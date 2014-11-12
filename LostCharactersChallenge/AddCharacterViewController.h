@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddCharacterViewController.h
 //  LostCharactersChallenge
 //
 //  Created by May Yang on 11/11/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AddCharacterViewController : UIViewController
+@property NSManagedObjectContext *moc;
 
 @end
-
