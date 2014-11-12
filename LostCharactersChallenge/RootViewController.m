@@ -109,10 +109,10 @@
 {
     AddCharacterViewController *vc = segue.destinationViewController;
 
-    if ([segue.identifier isEqualToString:@"editSegue"])
-    {
-        vc.characters = self.charactersArray[[self.tableView indexPathForSelectedRow].row];
-    }
+//    if ([segue.identifier isEqualToString:@"editSegue"])
+//    {
+//        vc.characters = self.charactersArray[[self.tableView indexPathForSelectedRow].row];
+//    }
 
     vc.moc = self.moc;
 
